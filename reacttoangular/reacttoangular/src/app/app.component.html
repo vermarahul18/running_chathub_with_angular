@@ -1,0 +1,72 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+<mat-toolbar color="primary" id="toolbar">
+  <mat-toolbar-row >
+    <span style="text-align: center;">Third Line</span>
+    <span class="example-spacer"></span>
+
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<div >
+  <h2>Hello {{nick}}!</h2>
+</div>
+
+
+<div class="container">
+  <!-- <h2>Hello {{nick}}!</h2> -->
+  <form (ngSubmit)="sendMessage()" #chatForm="ngForm">
+    <div>
+      <label for="message">Message</label>
+      <input type="text" id="message" name="message" [(ngModel)]="message" required>
+    </div>
+    <button type="submit" id="sendmessage" [disabled]="!chatForm.valid">
+      Send
+    </button>
+  </form>
+</div>
+
+
+<div class="container" style="float:left;" *ngIf="messages.length > 0">
+  <div *ngFor="let message of messages">
+    <span>{{message}}</span>
+  </div>
+</div>
+
+<div class="container" style="float:right;" id="id">
+  <button type="submit" (click)="getid()">
+    get connection id
+  </button>
+</div>
+
+<div class="container" style="float:right;">
+  <button type="submit" (click)="join()" id="nick1">
+    join a group
+  </button>
+</div>
+
+
+
+<div>
+  Enter group message ...
+  <div>
+    <input type="text" id="grpmsg" name="grpmsg" [(ngModel)]="grpmsg" required>
+  </div>
+  <button type="submit" (click)="sendMessageingrp()">
+   send message to group
+  </button>
+</div>
+
+<div class="container" style="float:right;" *ngIf="grpmsgs.length > 0">
+  <div *ngFor="let message of grpmsgs">
+    <span>{{message}}</span>
+  </div>
+</div>
+
+
+<div class="container" style="float:right;">
+  <button type="submit" (click)="leave()" id="nick">
+    leave a group
+  </button>
+</div>
