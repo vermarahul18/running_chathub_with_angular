@@ -1,0 +1,14 @@
+c:\users\admin\source\repos\ChatApiTryOne\ChatApiTryOne\bin\Debug\netcoreapp2.1\ChatApiTryOne.deps.json
+c:\users\admin\source\repos\ChatApiTryOne\ChatApiTryOne\bin\Debug\netcoreapp2.1\ChatApiTryOne.runtimeconfig.json
+c:\users\admin\source\repos\ChatApiTryOne\ChatApiTryOne\bin\Debug\netcoreapp2.1\ChatApiTryOne.runtimeconfig.dev.json
+c:\users\admin\source\repos\ChatApiTryOne\ChatApiTryOne\bin\Debug\netcoreapp2.1\ChatApiTryOne.dll
+c:\users\admin\source\repos\ChatApiTryOne\ChatApiTryOne\obj\Debug\netcoreapp2.1\ChatApiTryOne.csprojAssemblyReference.cache
+c:\users\admin\source\repos\ChatApiTryOne\ChatApiTryOne\obj\Debug\netcoreapp2.1\ChatApiTryOne.csproj.CoreCompileInputs.cache
+c:\users\admin\source\repos\ChatApiTryOne\ChatApiTryOne\obj\Debug\netcoreapp2.1\ChatApiTryOne.RazorAssemblyInfo.cache
+c:\users\admin\source\repos\ChatApiTryOne\ChatApiTryOne\obj\Debug\netcoreapp2.1\ChatApiTryOne.RazorAssemblyInfo.cs
+c:\users\admin\source\repos\ChatApiTryOne\ChatApiTryOne\obj\Debug\netcoreapp2.1\ChatApiTryOne.AssemblyInfoInputs.cache
+c:\users\admin\source\repos\ChatApiTryOne\ChatApiTryOne\obj\Debug\netcoreapp2.1\ChatApiTryOne.AssemblyInfo.cs
+c:\users\admin\source\repos\ChatApiTryOne\ChatApiTryOne\obj\Debug\netcoreapp2.1\ChatApiTryOne.RazorTargetAssemblyInfo.cache
+c:\users\admin\source\repos\ChatApiTryOne\ChatApiTryOne\bin\Debug\netcoreapp2.1\ChatApiTryOne.pdb
+c:\users\admin\source\repos\ChatApiTryOne\ChatApiTryOne\obj\Debug\netcoreapp2.1\ChatApiTryOne.dll
+c:\users\admin\source\repos\ChatApiTryOne\ChatApiTryOne\obj\Debug\netcoreapp2.1\ChatApiTryOne.pdb
