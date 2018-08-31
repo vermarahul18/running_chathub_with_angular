@@ -53,16 +53,16 @@ namespace tryingWithAngularChat.Services
             var result = Query<Workspace>.EQ(p => p.workspaceName, workspaceName);
             return _db.GetCollection<Workspace>("Workspace").FindOne(result);
         }
-        public Workspace CreateWorkspace(string workSpaceName)
+        public Workspace CreateWorkspace(Workspace workSpace)
         {
             Channel generalChannel = new Channel();
             generalChannel.channelName = "general";
             _dbChannel.GetCollection<Channel>("Channel").Save(generalChannel);
-            Workspace newWorkSpace = new Workspace();
-            newWorkSpace.workspaceName = workSpaceName;
-            newWorkSpace.channels.Add(generalChannel);
-            _db.GetCollection<Workspace>("Workspace").Save(newWorkSpace);
-            return newWorkSpace;
+            //Workspace newWorkSpace = new Workspace();
+            //workSpace.workspaceName = workSpace;
+            workSpace.channels.Add(generalChannel);
+            _db.GetCollection<Workspace>("Workspace").Save(workSpace);
+            return workSpace;
         }
         public void DeleteWorkspace(string id)
         {

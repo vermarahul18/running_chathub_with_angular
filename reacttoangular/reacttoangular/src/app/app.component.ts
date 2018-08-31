@@ -1,5 +1,6 @@
 import { Component,OnInit } from '@angular/core';
 import { HubConnection, HubConnectionBuilder  } from '@aspnet/signalr';
+ import {ChatService} from '../app/chat.service';
 
 @Component({
   selector: 'app-root',
@@ -16,9 +17,10 @@ export class AppComponent implements OnInit{
   ids: string[]=[];
   nick1='';
   nick1s: string[]=[];
-
   grpmsg='';
   grpmsgs:string[]=[];
+  workspacenamebyuser='';
+  newusertoworkspace='';
 
   public sendMessage(): void {
     this._hubConnection
@@ -57,7 +59,7 @@ export class AppComponent implements OnInit{
   ngOnInit(){
   }
 
-  constructor() {
+  constructor(private chatservice:ChatService) {
     this.nick = window.prompt('Your name:', '');
 
     this._hubConnection = new HubConnectionBuilder()
@@ -106,4 +108,19 @@ export class AppComponent implements OnInit{
 
         console.log(this._hubConnection);
   }
+
+  createworkspace()
+  {
+   console.log(this.workspacenamebyuser);
+   this.chatservice.CreateWorkspace(this.workspacenamebyuser)
+   .subscribe(s => console.log(s));
+  }
+
+  addusertoworkspace()
+  {
+    console.log("i am in addusertoworkspace");
+      // this.chatservice.addUserToWorkSpace(,this.workspacenamebyuser)
+      // .subscribe();
+   }
+
 }

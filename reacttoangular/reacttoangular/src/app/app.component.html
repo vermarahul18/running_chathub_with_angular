@@ -70,3 +70,17 @@
     leave a group
   </button>
 </div>
+
+
+<br><br><br>
+
+<input type="search" id="workspacenamebyuser" name="workspacenamebyuser" [(ngModel)]="workspacenamebyuser">
+<button (click)="createworkspace()">
+Create workspace
+</button>
+
+ <br><br><br><br>
+<input type="text" id="newusertoworkspace" name="newusertoworkspace" [(ngModel)]="newusertoworkspace">
+<button (click)="addusertoworkspace()" >
+Add User To a Workspace
+</button>

@@ -13341,11 +13341,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\mongodbdata\\tldm-chat-microservice\\tryingWithAngularChat\\tryingWithAngularChat\\tryingWithAngularChat.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\ChatApiTryOne\\tryingWithAngularChat\\tryingWithAngularChat\\tryingWithAngularChat.csproj",
       "projectName": "tryingWithAngularChat",
-      "projectPath": "D:\\mongodbdata\\tldm-chat-microservice\\tryingWithAngularChat\\tryingWithAngularChat\\tryingWithAngularChat.csproj",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\ChatApiTryOne\\tryingWithAngularChat\\tryingWithAngularChat\\tryingWithAngularChat.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\mongodbdata\\tldm-chat-microservice\\tryingWithAngularChat\\tryingWithAngularChat\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\ChatApiTryOne\\tryingWithAngularChat\\tryingWithAngularChat\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

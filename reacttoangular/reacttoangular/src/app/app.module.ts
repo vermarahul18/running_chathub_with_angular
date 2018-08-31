@@ -7,6 +7,8 @@ import {MatButtonModule, MatCheckboxModule, MatCardModule,
 import {MatDialogModule} from '@angular/material';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+import {HttpModule} from '@angular/http';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { FormsModule } from '@angular/forms';
     MatSidenavModule,
     MatInputModule,
     MatToolbarModule,
-    FormsModule
+    FormsModule,
+    HttpModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

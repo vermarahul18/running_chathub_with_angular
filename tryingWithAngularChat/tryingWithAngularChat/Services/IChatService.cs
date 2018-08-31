@@ -9,7 +9,7 @@ namespace tryingWithAngularChat.Services
     public interface IChatService
     {
         // workspace related task
-        Workspace CreateWorkspace(string workspaceName);
+        Workspace CreateWorkspace(Workspace workspace);
         void DeleteWorkspace(string workspaceName);
         IEnumerable<Workspace> GetAllWorkspaces();
         Workspace GetWorkspaceById(string id);

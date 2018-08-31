@@ -40,3 +40,17 @@ D:\mongodbdata\tldm-chat-microservice\tryingWithAngularChat\tryingWithAngularCha
 D:\mongodbdata\tldm-chat-microservice\tryingWithAngularChat\tryingWithAngularChat\obj\Debug\netcoreapp2.1\tryingWithAngularChat.RazorTargetAssemblyInfo.cache
 D:\mongodbdata\tldm-chat-microservice\tryingWithAngularChat\tryingWithAngularChat\obj\Debug\netcoreapp2.1\tryingWithAngularChat.dll
 D:\mongodbdata\tldm-chat-microservice\tryingWithAngularChat\tryingWithAngularChat\obj\Debug\netcoreapp2.1\tryingWithAngularChat.pdb
+C:\Users\Admin\source\repos\ChatApiTryOne\tryingWithAngularChat\tryingWithAngularChat\bin\Debug\netcoreapp2.1\tryingWithAngularChat.deps.json
+C:\Users\Admin\source\repos\ChatApiTryOne\tryingWithAngularChat\tryingWithAngularChat\bin\Debug\netcoreapp2.1\tryingWithAngularChat.runtimeconfig.json
+C:\Users\Admin\source\repos\ChatApiTryOne\tryingWithAngularChat\tryingWithAngularChat\bin\Debug\netcoreapp2.1\tryingWithAngularChat.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\ChatApiTryOne\tryingWithAngularChat\tryingWithAngularChat\bin\Debug\netcoreapp2.1\tryingWithAngularChat.dll
+C:\Users\Admin\source\repos\ChatApiTryOne\tryingWithAngularChat\tryingWithAngularChat\bin\Debug\netcoreapp2.1\tryingWithAngularChat.pdb
+C:\Users\Admin\source\repos\ChatApiTryOne\tryingWithAngularChat\tryingWithAngularChat\obj\Debug\netcoreapp2.1\tryingWithAngularChat.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\ChatApiTryOne\tryingWithAngularChat\tryingWithAngularChat\obj\Debug\netcoreapp2.1\tryingWithAngularChat.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\ChatApiTryOne\tryingWithAngularChat\tryingWithAngularChat\obj\Debug\netcoreapp2.1\tryingWithAngularChat.RazorAssemblyInfo.cache
+C:\Users\Admin\source\repos\ChatApiTryOne\tryingWithAngularChat\tryingWithAngularChat\obj\Debug\netcoreapp2.1\tryingWithAngularChat.RazorAssemblyInfo.cs
+C:\Users\Admin\source\repos\ChatApiTryOne\tryingWithAngularChat\tryingWithAngularChat\obj\Debug\netcoreapp2.1\tryingWithAngularChat.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\ChatApiTryOne\tryingWithAngularChat\tryingWithAngularChat\obj\Debug\netcoreapp2.1\tryingWithAngularChat.AssemblyInfo.cs
+C:\Users\Admin\source\repos\ChatApiTryOne\tryingWithAngularChat\tryingWithAngularChat\obj\Debug\netcoreapp2.1\tryingWithAngularChat.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\source\repos\ChatApiTryOne\tryingWithAngularChat\tryingWithAngularChat\obj\Debug\netcoreapp2.1\tryingWithAngularChat.dll
+C:\Users\Admin\source\repos\ChatApiTryOne\tryingWithAngularChat\tryingWithAngularChat\obj\Debug\netcoreapp2.1\tryingWithAngularChat.pdb
